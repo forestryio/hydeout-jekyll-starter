@@ -57,7 +57,7 @@ fields:
   type: text
   hidden: false
   default: ''
-  description: Enter the baseurl here (usually `/`)
+  description: Enter the baseurl here (usually this field should stay empty)
   config:
     required: false
 - type: field_group
