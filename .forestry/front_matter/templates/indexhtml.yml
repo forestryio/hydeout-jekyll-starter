@@ -1,0 +1,22 @@
+---
+label: IndexHTML
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  hidden: true
+  config:
+    required: true
+  default: index
+- type: text
+  label: title
+  name: title
+  hidden: false
+  config:
+    required: true
+  default: Home
+  description: Name of the Homepage Link in the Sidebar
+pages:
+- index.html

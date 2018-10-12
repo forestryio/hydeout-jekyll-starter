@@ -1,0 +1,31 @@
+---
+label: Tags
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  default: tags
+  hidden: true
+  config:
+    required: true
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+  default: Tags
+- type: boolean
+  name: sidebar_link
+  label: Sidebar Link
+  description: Add this page as a link to the Sidebar
+- type: number
+  label: Sidebar Sort Order
+  name: sidebar_sort_order
+  description: Add a number that indicates the position of the link in the Sidebar
+    (only if Sidebar Link active)
+  config:
+    min: '1'
+pages:
+- tags.md

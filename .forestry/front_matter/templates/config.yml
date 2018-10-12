@@ -1,0 +1,178 @@
+---
+label: Config
+hide_body: true
+is_partial: false
+fields:
+- name: markdown
+  label: Markdown
+  type: text
+  hidden: true
+  default: kramdown
+  description: Enter your markdown parser here (default kramdown).
+  config:
+    required: true
+- name: highlighter
+  label: Highlighter
+  type: text
+  hidden: true
+  default: rouge
+  description: Enter your preferred highlighter here (default rouge).
+  config:
+    required: true
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: Hyde / Hydeout
+  description: Enter your site title here.
+  config:
+    required: true
+- name: tagline
+  label: Tagline
+  type: text
+  hidden: false
+  default: A Jekyll theme
+  description: Enter a tagline here.
+  config:
+    required: false
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for
+    <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.
+  description: Enter a description here.
+  config:
+    required: false
+- name: url
+  label: url
+  type: text
+  hidden: false
+  default: http://example.com/
+  description: Enter your URL here (e.g. http://your-site.com/)
+  config:
+    required: true
+- name: baseurl
+  label: baseurl
+  type: text
+  hidden: false
+  default: ''
+  description: Enter the baseurl here (usually `/`)
+  config:
+    required: false
+- type: field_group
+  name: author
+  label: Author
+  fields:
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: Andrew Fong
+    description: Enter the name of the author of the blog.
+    config:
+      required: false
+  - name: url
+    label: URL
+    type: text
+    hidden: false
+    default: https://twitter.com/fongandrewc
+    description: Enter the URL the author's name should link to.
+    config:
+      required: false
+- name: paginate
+  label: Paginate
+  type: number
+  hidden: false
+  default: 5
+  description: Enter the number of posts that should be shown per page.
+  config:
+    required: true
+- type: boolean
+  name: sidebar_home_link
+  label: Show Home Link
+  hidden: false
+  default: true
+  description: If active, the sidebar will show a home link.
+- type: field_group
+  name: theme_colors
+  label: Theme Color Settings
+  fields:
+  - type: color
+    config:
+      color_format: Hex
+      required: true
+    name: sidebar-bg-color
+    label: Sidebar Background Color
+    default: "#000000"
+  - type: color
+    name: sidebar-fg-color
+    config:
+      color_format: Hex
+      required: true
+    label: Sidebar Foreground Color
+    default: "#FFFFFF"
+  - type: color
+    name: link-color
+    config:
+      color_format: Hex
+      required: true
+    label: Link Color
+    default: "#FFFFFF"
+- type: boolean
+  name: sidebar-sticky
+  label: Bottom Sidebar
+  hidden: false
+  default: true
+  description: If active, the sidebar will show the text in it sitting on the bottom.
+- type: boolean
+  name: layout-reverse
+  label: Reverse Layout
+  description: ''
+- type: field_group
+  name: disqus
+  label: Disqus (optional)
+  description: Add Commenting functionality
+  fields:
+  - type: text
+    name: shortname
+    label: Disqus Shortname
+    description: Add your shortname here. Sign up for free at https://disqus.com/profile/signup/
+- type: text
+  name: google_analytics
+  label: Google Analytics Tracking Code (optional)
+  description: Add analytics by adding your Google Analytics tracking code here. More
+    information on the tracking code at https://support.google.com/analytics/answer/7372977?ctx=glossary
+- type: list
+  label: Exclude
+  name: exclude
+  description: Files that should be excluded from the build
+  hidden: true
+  default:
+  - README.md
+- type: list
+  name: plugins
+  label: Plugins
+  description: List of plugins used for this theme (only change if you know what you're
+    doing)
+  hidden: true
+  default:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+- type: text
+  name: remote_theme
+  label: Remote Theme (for Github Pages)
+  hidden: true
+  description: This is currently necessary to make this gem theme work on Github Pages
+  default: fongandrew/hydeout
+- type: text
+  name: theme
+  label: Theme
+  default: jekyll-theme-hydeout
+  description: Name of the Gem Theme attached to this Site (default jekyll-theme-hydeout)
+  config:
+    required: false
+  hidden: true
+pages:
+- _config.yml

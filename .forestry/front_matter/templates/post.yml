@@ -1,0 +1,47 @@
+---
+label: Post
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: post
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  description: Add post title here
+- type: textarea
+  name: excerpt
+  label: Excerpt
+  description: A summary of your content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+  description: Add publishing date here
+- type: datetime
+  name: last_modified_at
+  label: Last Modified At
+  description: Add last date you made a change here
+- type: tag_list
+  label: Categories
+  name: categories
+  description: This is where you can assign categories to your content.
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Add appropriate tags
+- type: boolean
+  name: comments
+  label: Comments
+  description: Active if you want to allow comments (this option is only available
+    if you've set Disqus up in your Site Configuration)

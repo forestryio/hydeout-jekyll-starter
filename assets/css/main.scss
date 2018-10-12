@@ -1,0 +1,9 @@
+---
+---
+
+$sidebar-bg-color: {{ site.theme_colors.sidebar-bg-color }};
+$sidebar-fg-color: {{ site.theme_colors.sidebar-fg-color }};
+$link-color: {{ site.theme_colors.link-color }};
+$sidebar-sticky: {{ site.sidebar-sticky }};
+$layout-reverse: {{ site.layout-reverse }};
+@import "hydeout";

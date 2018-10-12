@@ -1,0 +1,41 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: document
+  path: README.md
+  label: Welcome - Start Here!
+  read_only: true
+- type: document
+  path: _config.yml
+  label: Site Configuration
+- type: jekyll-posts
+  label: Posts
+  create: all
+  templates:
+  - post
+- type: directory
+  path: category
+  label: Categories
+  create: all
+  match: "**/*"
+  templates:
+  - category
+- type: directory
+  path: ''
+  label: Pages
+  create: documents
+  match: "*"
+  exclude: "{README*,LICENSE*,_config.yml}"
+  new_doc_ext: md
+  templates:
+  - page
+  - tags
+  - search
+upload_dir: assets/img
+public_path: assets/img
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"

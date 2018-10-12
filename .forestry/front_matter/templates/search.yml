@@ -1,0 +1,20 @@
+---
+label: Search
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Add a title here
+  config:
+    required: false
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  config:
+    required: true
+  default: search
+pages:
+- google-search.md
