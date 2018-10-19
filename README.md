@@ -21,9 +21,9 @@ the CSS degrades into a single column layout.
 
 ### 1. Import
 
-To give you a running start this installation puts a fully configured [starter repo](https://github.com/forestryio/hydeout-jekyll-starter) into your Account and imports it into the [Forestry](https://forestry.io) Content Manager. 
+To give you a running start this installation puts a fully configured [starter repo](https://github.com/forestryio/hydeout-jekyll-starter) into your Git account and sets it up in a content manager / CMS.
 
-_Forestry Starter-Kit:_
+_[Forestry](https://forestry.io) Starter-Kit:_
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/hydeout-jekyll-starter&provider=github&engine=jekyll)
 
