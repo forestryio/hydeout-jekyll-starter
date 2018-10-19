@@ -17,13 +17,17 @@ variables).
 Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
 the CSS degrades into a single column layout.
 
-## Starter Installation (incl. Content Manager/CMS)
-
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/hyde-jekyll-starter&provider=github&engine=jekyll)
-
 ## First Steps
 
-You've now successfully installed your Hyde Theme in a Hugo project.
+### 1. Import
+
+To give you a running start this installation puts a fully configured [starter repo](https://github.com/forestryio/hydeout-jekyll-starter) into your Account and imports it into the [Forestry](https://forestry.io) Content Manager. 
+
+_Forestry Starter-Kit:_
+
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/hydeout-jekyll-starter&provider=github&engine=jekyll)
+
+You've now successfully installed your Hydeout Theme in a Jekyll project.
 
 There's a few more settings we need to customize before you can get started.
 
@@ -34,7 +38,7 @@ Currently your site is only visible to you but there's a few options to quickly 
 The easiest option in our opinion is Netlify. It's quick to setup and relatively easy to maintain.
 
 1. Go to <a href="https://app.netlify.com/start" target="_blank">https://app.netlify.com/start</a>
-2. Connect your Git provider and provide Netlify access to your repository (e.g. username/hyde)
+2. Connect your Git provider and provide Netlify access to your repository (e.g. username/hydeout)
 3. Select and Click on your repository
 4. Enter your build settings.
    * Build Command: `bundle exec jekyll build`
@@ -65,7 +69,7 @@ You can replace the favicon (the small icon that shows up in the tab of your pag
 
 #### Reverse layout
 
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
+![Hydeout with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
 
 To reverse page orientation activate `Reverse Layout` in `Site Configuration`.
 
@@ -83,7 +87,7 @@ If you don't have a Google Analytics Account you can sign up for an account [her
 
 ### 3. Editing in Forestry
 
-Your site is completely editable in Forestry. The Hyde theme is a simple responsive blog completely based on posts and a sidebar menu.
+Your site is completely editable in Forestry. The Hydeout theme is a simple responsive blog completely based on posts and a sidebar menu.
 
 #### Creating and Editing A New Page/Post
 
