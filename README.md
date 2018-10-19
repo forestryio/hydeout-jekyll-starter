@@ -43,8 +43,6 @@ The easiest option in our opinion is Netlify. It's quick to setup and relatively
 4. Enter your build settings.
    * Build Command: `bundle exec jekyll build`
    * Publish Directory: `_site`
-   
-_Netlify might show a warning that the Gemfile isn't listing Jekyll and that this will likely lead to a broken build. This is due to Jekyll being listed in a gemspec file instead and can be safely ignored_
 5. Click on `Deploy Site`
 
 ![](https://forestry.io/img/theme/netlify-step-4.gif)
