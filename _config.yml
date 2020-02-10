@@ -1,18 +1,17 @@
 ---
-markdown: kramdown
-highlighter: rouge
 title: Hydeout
 tagline: A Jekyll theme
 description: The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme
   for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.
-url: https://example.com
-baseurl: ""
+url: 
+baseurl:
 author:
   name: Andrew Fong
   url: https://twitter.com/fongandrewc
 paginate: 5
 exclude:
 - README.md
+- vendor/bundle
 plugins:
 - jekyll-feed
 - jekyll-gist
@@ -28,4 +27,5 @@ remote_theme: fongandrew/hydeout
 google_analytics: ''
 disqus:
   shortname: ''
+
 theme: jekyll-theme-hydeout
