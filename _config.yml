@@ -4,7 +4,7 @@ tagline: A Jekyll theme
 description: The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme
   for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.
 url: 
-baseurl:
+baseurl: '/hydeout-jekyll-starter/'
 author:
   name: Andrew Fong
   url: https://twitter.com/fongandrewc
